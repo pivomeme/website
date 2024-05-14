@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIVOMEME</title>
+    <title>PIVOCOIN</title>
+    <style>
+       header {
+        height: 100px;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+    .logo {
+        max-width: 50px;
+    }
+
+    .site-name {
+        margin-left: 10px;
+        color: #fff;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .links a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .button {
+        margin-left: 50px;
+        color: #000;
+        background-color: #f0f0f0;
+        border: #000;
+        padding: 10px;
+        cursor: pointer;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .block-left,
+        .block-right {
+            flex: 1;
+            padding: 20px;
+        }
+        .block-left img,
+        .block-right img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .block-left,
+            .block-right {
+                flex: 100%;
+            }
+            .logo {
+            margin-top: 0;
+        }
+        .links {
+            justify-content: flex-end;
+            margin-top: 0;
+        }
+        .button {
+            display: none;
+        }
+            
+        }
+    </style>
 </head>
 <body>
-    <img src="icon/icon.png" alt="pivomeme icon">
+    <header>
+        <img src="images/PIVO.PNG" alt="Logo" class="logo">
+        <h1 class="site-name">PIVOCOIN</h1>
+        <div class="links">
+            <a href="#">About</a>
+            <a href="#">Tokenomic</a>
+            <a href="#">Roadmap</a>
+        </div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiGVAktsGKXvOpgf0cc5I-_QyZoW3EGYETeAwlWo53Nm5ejw/viewform" class="button">JOIN PRESALE</a>
+    </header>
+    <div class="container">
+        
+
+        <!-- 1 блок -->
+        <div class="block">
+            <div class="block-left">
+                <img src="images/PIVO.PNG" alt="PIVOCOIN">
+            </div>
+            <div class="block-right">
+                <h2>Встречайте, PIVOCOIN</h2>
+                <p>PIVO — это еще один мем, но который больше, чем мем.</p>
+            </div>
+        </div>
+        
+        <!-- 2 блок -->
+        <div class="block">
+            <div class="block-left">
+                <h2>О меме PIVOCOIN</h2>
+                <p>PIVOCOIN создан для тех, кто ценит чувство юмора и хорошую компанию. Этот мем является символом беззаботной радости и веселья в мире криптовалют.</p>
+            </div>
+            <div class="block-right">
+                <img src="images/MAN.PNG" alt="Мем PIVOCOIN">
+            </div>
+        </div>
+
+        <!-- 3 блок -->
+        <div class="block">
+            <div class="block-left">
+                <img src="images/TOKENOMIC.png" alt="Диаграмма токеномики">
+            </div>
+            <div class="block-right">
+                <h2>Токеномика PIVOCOIN</h2>
+                <p>Токен PIVOCOIN имеет справедливое и устойчивое распределение, обеспечивая стабильность и перспективу для инвесторов.</p>
+            </div>
+        </div>
+
+        <!-- 4 блок -->
+        <div class="block">
+            <div class="block-left">
+                <h2>Путь развития токена</h2>
+                <p>PIVOCOIN стремится к непрерывному улучшению и развитию, чтобы стать самым популярным мем-токеном в мире криптовалют.</p>
+            </div>
+            <div class="block-right">
+                <img src="images/ROADMAP.png" alt="Путь развития токена">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
